@@ -68,6 +68,10 @@ FPGA-ECG-Apnea-Detection/
 │ ├── ecg_rom.coe # ECG dataset (COE format)
 │ ├── normal_ecg_rom.coe # Normal ECG dataset (COE format)
 │
+├── MATLAB/
+│ ├── CODE.m # Algorithm used
+│ ├── ECG_COE.m #Convert fixed file to COE file
+│ ├── ecg_rom.m # Convert floating point to fixed point
 └── README.md
 ```
 ## Results

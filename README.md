@@ -38,7 +38,12 @@ Two preloaded ECG datasets (Normal and Apnea) are stored in on-chip Block Memory
 - MATLAB (Algorithm Cross-Validation)
 
 ---
+## Hardware Implementation (Basys-3 FPGA)
 
+<p align="center">
+  <img src="BOARD.jpg" width="600">
+</p>
+---
 ## Demo
 
 https://youtu.be/dpcdm0rQXas

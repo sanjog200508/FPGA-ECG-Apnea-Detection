@@ -74,3 +74,4 @@ FPGA-ECG-Apnea-Detection/
 - Deterministic reset behavior with no false triggering
 - Cross-validation of RR intervals and statistical metrics using MATLAB prior to hardware deployment
 - Real-time BPM display using multiplexed 7-segment output
+---

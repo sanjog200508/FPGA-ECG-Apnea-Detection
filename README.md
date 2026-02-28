@@ -51,16 +51,16 @@ https://youtu.be/dpcdm0rQXas
 FPGA-ECG-Apnea-Detection/
 │
 ├── src/
-│   ├── ecg_top.v              # Top-level system integration
-│   ├── apnea_detection.v      # Apnea classification logic
-│   ├── r_peak_detector.v      # R-peak detection module
-│   ├── RR_interval.v          # RR interval computation
-│   ├── ecg_rom.v              # Normal ECG ROM wrapper
-│   ├── apnea_ecg_rom.v        # Apnea ECG ROM wrapper
+│ ├── TOP.v # Top-level system integration module
+│ ├── apnea_detection.v # Apnea classification logic
+│ ├── apnea_ecg_rom.v # Apnea ECG ROM wrapper
+│ ├── RR_interval.v # RR interval computation
+│ ├── ecg_rom.v # Normal ECG ROM wrapper
+│ ├── r_peak_detector.v # R-peak detection module
 │
 ├── data/
-│   ├── normal_ecg.coe         # Normal ECG dataset
-│   ├── apnea_ecg.coe          # Apnea ECG dataset
+│ ├── ecg_rom.coe # ECG dataset (COE format)
+│ ├── normal_ecg_rom.coe # Normal ECG dataset (COE format)
 │
 └── README.md
 ```

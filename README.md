@@ -64,3 +64,13 @@ FPGA-ECG-Apnea-Detection/
 │
 └── README.md
 ```
+## Results
+
+- Accurate R-peak detection with real-time heartbeat LED blinking
+- Correct RR interval computation over continuous ECG samples
+- Stable 60-second time-window evaluation for apnea classification
+- Apnea LED activates for apnea dataset and remains OFF for normal dataset
+- Runtime dataset switching without FPGA reprogramming
+- Deterministic reset behavior with no false triggering
+- Cross-validation of RR intervals and statistical metrics using MATLAB prior to hardware deployment
+- Real-time BPM display using multiplexed 7-segment output

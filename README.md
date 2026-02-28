@@ -72,6 +72,7 @@ FPGA-ECG-Apnea-Detection/
 │ ├── CODE.m # Algorithm used
 │ ├── ECG_COE.m #Convert fixed file to COE file
 │ ├── ecg_rom.m # Convert floating point to fixed point
+|
 └── README.md
 ```
 ## Results

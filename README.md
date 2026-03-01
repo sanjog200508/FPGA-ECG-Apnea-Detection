@@ -38,6 +38,11 @@ Two preloaded ECG datasets from Physionet Database (Normal and Apnea) are stored
 - MATLAB (Algorithm Cross-Validation)
 
 ---
+## Block Diagram
+
+<p align="center">
+  <img src="block.png" width="600">
+</p>
 
 ## Hardware Implementation (Basys-3 FPGA)
 

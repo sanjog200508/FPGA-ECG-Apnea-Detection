@@ -73,6 +73,9 @@ FPGA-ECG-Apnea-Detection/
 │ ├── ECG_COE.m #Convert fixed file to COE file
 │ ├── ecg_rom.m # Convert floating point to fixed point
 |
+├── CONSTRS/
+│ ├── constraints.xdc #BASYS-3 Constraints code
+|
 └── README.md
 ```
 ## Results

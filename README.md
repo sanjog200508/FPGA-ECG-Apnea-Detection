@@ -3,7 +3,7 @@
 ## Overview
 This project implements a real-time ECG signal processing system on FPGA (Basys-3) for hardware-based detection of apnea-like patterns. The design performs R-peak detection, RR interval computation, and statistical analysis over a fixed 60-second evaluation window.
 
-Two preloaded ECG datasets (Normal and Apnea) are stored in on-chip Block Memory and can be switched at runtime using switch.
+Two preloaded ECG datasets from Physionet Database (Normal and Apnea) are stored in on-chip Block Memory and can be switched at runtime using switch.
 
 ---
 
